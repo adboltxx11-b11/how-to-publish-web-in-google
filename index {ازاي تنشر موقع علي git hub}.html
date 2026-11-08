@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ازاي تنشر موقعك على GitHub</title>
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);--bg:#f6f8fa;--card:#fff;--tx:#1f2328;--mut:#59636e;--bd:#d1d9e0;--ac:#1f883d;--ui:#eaeef2;--hl:#fb8500}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d1117;--card:#151b23;--tx:#f0f6fc;--mut:#9198a1;--bd:#30363d;--ac:#3fb950;--ui:#212830;--hl:#ffa657}}
+:root[data-theme="dark"]{--bg:#0d1117;--card:#151b23;--tx:#f0f6fc;--mut:#9198a1;--bd:#30363d;--ac:#3fb950;--ui:#212830;--hl:#ffa657}
+*{box-sizing:border-box}html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--tx);font-family:Tahoma,"Segoe UI",system-ui,sans-serif;line-height:1.8}
+main{max-width:760px;margin:0 auto;padding:24px 16px 56px}
+h1{font-size:30px;margin:0 0 6px}.lead{color:var(--mut);margin:0 0 24px;font-size:17px}
+.step{background:var(--card);border:1px solid var(--bd);border-radius:16px;padding:16px;margin-bottom:18px}
+.num{display:inline-block;background:var(--ac);color:#fff;border-radius:99px;width:30px;height:30px;line-height:30px;text-align:center;font-weight:bold;margin-left:8px}
+h2{font-size:20px;margin:0 0 10px;display:flex;align-items:center}
+svg{width:100%;height:auto;display:block;border:1px solid var(--bd);border-radius:12px;margin-bottom:10px}
+.t{fill:var(--tx);font:13px Segoe UI,Arial,sans-serif}.m{fill:var(--mut);font:11px Segoe UI,Arial,sans-serif}
+.f{fill:var(--ui);stroke:var(--bd)}.g{fill:var(--ac)}.h{fill:none;stroke:var(--hl);stroke-width:3;stroke-dasharray:6 3}
+.w{fill:#fff;font:bold 13px Segoe UI,Arial,sans-serif}
+p{margin:6px 0}a{color:var(--ac)}code{background:var(--ui);padding:1px 6px;border-radius:6px;direction:ltr;unicode-bidi:embed}
+.tip{background:var(--ui);border-radius:10px;padding:8px 12px;font-size:15px;margin-top:8px}
+.vid{position:relative;padding-top:56.25%;border-radius:14px;overflow:hidden;border:1px solid var(--bd)}
+.vid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+</style>
+</head>
+<body>
+<main>
+<h1>🚀 ازاي تنشر موقعك على GitHub</h1>
+<p class="lead">٦ خطوات بسيطة وموقعك يبقى أونلاين برابط https ومجاني. الصور رسومات توضيحية لشكل الشاشة، وممكن شكل GitHub يتغير شوية مع الوقت.</p>
+
+<section class="step">
+<h2><span class="num">1</span>اعمل حساب على GitHub</h2>
+<svg viewBox="0 0 400 200" role="img" aria-label="صفحة إنشاء حساب"><rect class="f" x="1" y="1" width="398" height="198" rx="10"/><text class="t" x="120" y="30" font-weight="bold">Create your account</text>
+<rect class="f" x="100" y="45" width="200" height="26" rx="5"/><text class="m" x="108" y="62">Email</text>
+<rect class="f" x="100" y="80" width="200" height="26" rx="5"/><text class="m" x="108" y="97">Password</text>
+<rect class="f" x="100" y="115" width="200" height="26" rx="5"/><text class="m" x="108" y="132">Username</text>
+<rect class="g" x="100" y="152" width="200" height="30" rx="6"/><text class="w" x="165" y="172">Sign up</text><rect class="h" x="96" y="148" width="208" height="38" rx="8"/></svg>
+<p>ادخل على <a href="https://github.com/signup" target="_blank" rel="noopener">github.com/signup</a> واكتب إيميلك وباسورد واسم مستخدم (Username). وبعدها أكد الإيميل من الرسالة اللي هتوصلك.</p>
+<p class="tip">اسم المستخدم هيظهر في رابط موقعك، فاختار اسم بسيط بالإنجليزي.</p>
+</section>
+
+<section class="step">
+<h2><span class="num">2</span>اعمل Repository جديد</h2>
+<svg viewBox="0 0 400 200" role="img" aria-label="إنشاء مستودع جديد"><rect class="f" x="1" y="1" width="398" height="198" rx="10"/><text class="t" x="20" y="28" font-weight="bold">Create a new repository</text>
+<text class="m" x="20" y="52">Repository name</text><rect class="f" x="20" y="58" width="220" height="26" rx="5"/><text class="t" x="28" y="76">my-site</text><rect class="h" x="16" y="54" width="228" height="34" rx="7"/>
+<circle cx="30" cy="110" r="6" class="g"/><text class="t" x="44" y="114">Public</text><circle cx="30" cy="134" r="6" class="f"/><text class="m" x="44" y="138">Private</text>
+<rect class="g" x="20" y="155" width="150" height="30" rx="6"/><text class="w" x="32" y="175">Create repository</text></svg>
+<p>من أعلى الصفحة دوس على علامة <b>+</b> واختار <b>New repository</b>. اكتب اسم للمشروع (مثلاً <code>my-site</code>) واختار <b>Public</b> وبعدها <b>Create repository</b>.</p>
+<p class="tip">لازم يكون Public عشان GitHub Pages المجاني يشتغل.</p>
+</section>
+
+<section class="step">
+<h2><span class="num">3</span>ارفع ملف index.html</h2>
+<svg viewBox="0 0 400 200" role="img" aria-label="رفع الملف"><rect class="f" x="1" y="1" width="398" height="198" rx="10"/><text class="t" x="20" y="28" font-weight="bold">Upload files</text>
+<rect x="20" y="40" width="360" height="80" rx="8" fill="none" stroke="var(--bd)" stroke-dasharray="6 4"/><text class="m" x="105" y="85">Drag files here to add them</text>
+<rect class="f" x="20" y="130" width="130" height="24" rx="5"/><text class="t" x="30" y="147">index.html</text><rect class="h" x="16" y="126" width="138" height="32" rx="7"/>
+<rect class="g" x="250" y="160" width="130" height="30" rx="6"/><text class="w" x="262" y="180">Commit changes</text></svg>
+<p>داخل المشروع دوس <b>uploading an existing file</b> واسحب ملف <code>index.html</code> على الصفحة، وبعدها دوس <b>Commit changes</b> تحت.</p>
+<p class="tip">اسم الملف لازم يكون <code>index.html</code> بالحروف الصغيرة بالظبط، عشان هو اللي بيفتح لما حد يدخل على الرابط.</p>
+</section>
+
+<section class="step">
+<h2><span class="num">4</span>افتح Settings ثم Pages</h2>
+<svg viewBox="0 0 400 200" role="img" aria-label="تبويب Settings"><rect class="f" x="1" y="1" width="398" height="198" rx="10"/>
+<text class="t" x="20" y="32">Code</text><text class="t" x="75" y="32">Issues</text><text class="t" x="140" y="32">Actions</text><text class="t" x="215" y="32" font-weight="bold">Settings</text><rect class="h" x="208" y="14" width="70" height="26" rx="6"/><line x1="1" y1="46" x2="399" y2="46" stroke="var(--bd)"/>
+<rect x="1" y="47" width="110" height="152" fill="var(--ui)"/><text class="m" x="14" y="72">General</text><text class="m" x="14" y="98">Branches</text><text class="t" x="14" y="124" font-weight="bold">Pages</text><rect class="h" x="8" y="108" width="96" height="24" rx="5"/></svg>
+<p>من تبويبات المشروع فوق دوس <b>Settings</b>، وبعدها من القايمة الجانبية اختار <b>Pages</b>.</p>
+</section>
+
+<section class="step">
+<h2><span class="num">5</span>اختار الفرع وفعّل النشر</h2>
+<svg viewBox="0 0 400 200" role="img" aria-label="إعدادات Pages"><rect class="f" x="1" y="1" width="398" height="198" rx="10"/><text class="t" x="20" y="28" font-weight="bold">GitHub Pages</text>
+<text class="m" x="20" y="52">Source</text><rect class="f" x="20" y="58" width="240" height="26" rx="5"/><text class="t" x="28" y="76">Deploy from a branch</text>
+<text class="m" x="20" y="108">Branch</text><rect class="f" x="20" y="114" width="90" height="26" rx="5"/><text class="t" x="28" y="132">main</text><rect class="f" x="120" y="114" width="90" height="26" rx="5"/><text class="t" x="128" y="132">/ (root)</text><rect class="h" x="16" y="110" width="198" height="34" rx="7"/>
+<rect class="g" x="20" y="156" width="70" height="28" rx="6"/><text class="w" x="35" y="175">Save</text></svg>
+<p>تحت <b>Source</b> اختار <b>Deploy from a branch</b>. وتحت <b>Branch</b> اختار <code>main</code> و <code>/ (root)</code>، وبعدين دوس <b>Save</b>.</p>
+</section>
+
+<section class="step">
+<h2><span class="num">6</span>استنى دقيقة وافتح الرابط</h2>
+<svg viewBox="0 0 400 200" role="img" aria-label="الموقع اتنشر"><rect class="f" x="1" y="1" width="398" height="198" rx="10"/><text class="t" x="20" y="28" font-weight="bold">GitHub Pages</text>
+<rect x="20" y="50" width="360" height="60" rx="8" fill="var(--ui)" stroke="var(--ac)" stroke-width="2"/><text class="t" x="34" y="75">✓ Your site is live at</text><text class="t" x="34" y="97" style="fill:var(--ac)">https://username.github.io/my-site/</text>
+<rect class="g" x="20" y="130" width="110" height="30" rx="6"/><text class="w" x="38" y="150">Visit site</text><rect class="h" x="16" y="126" width="118" height="38" rx="8"/></svg>
+<p>النشر بياخد من دقيقة لدقيقتين. اعمل ريفريش للصفحة وهيظهرلك الرابط، شكله <code>https://اسمك.github.io/اسم-المشروع/</code>. ابعته لأي حد وهيفتحه.</p>
+<p class="tip">عشان تعدّل الموقع بعدين، ادخل على الملف في GitHub، دوس أيقونة القلم، عدّل واعمل Commit، والتعديل بينزل تلقائي.</p>
+</section>
+
+<h2 style="margin-top:28px">🎬 شوف الشرح بالفيديو</h2>
+<div class="vid"><iframe src="https://www.youtube.com/embed/g0FHPCxTOfU" title="شرح النشر على GitHub" allow="accelerometer; clipboard-write; encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
+<p class="tip">لو الفيديو مش بيشتغل، افتحه من <a href="https://www.youtube.com/watch?v=g0FHPCxTOfU" target="_blank" rel="noopener">هنا على يوتيوب</a>.</p>
+</main>
+</body>
+</html>
